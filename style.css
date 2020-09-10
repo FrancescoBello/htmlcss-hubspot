@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 900px;
+  margin: auto;
+  border: 3px solid black;
+  height:  500%;
+}
+
+.first{
+   background-color:white;
+   height: 50px;
+   width: 100%;
+   margin-top: 10px;
+   }
+   a{
+     text-decoration: none;
+     color: black
+   }
+.search{
+  text-align: center;
+}
+
+.button{
+     text-align: right;
+}
+
+.second{
+     background-color: white;
+    /* height: 50px;*/
+     width: 100%
+   }
+img{
+  width: 10%;
+  height: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+
+.container ul{
+  text-align: right;
+}
+.container li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+
+
+.third{
+  background-color: blue;
+  /*height: 80px;*/
+  width: 100%;
+background: rgb(1, 1, 0, );
+}
+
+p{
+  color: white;
+}
+
+.ytlink{
+  color: white;
+}
+
+
+
+/*         finish header        */
+section#menu{
+    background-color: orange;
+  height: 500px;
+  width: 100%;
+}
+
+.parag{
+
+  width: 40%;
+}
+
+h1{
+  font-size: 50px;
+}
+.text{
+  color: black;
+}
+.get{
+  width: 100%;
+  height: 50px;
+
+}
+.two{
+      background-color: grey;
+       height: 600px;
+       width: 100%;
+}
+.three{
+  background-color: lightgreen;
+  height: 500px;
+  width: 100%;
+}
+
+.four{
+  background-color: white;
+  height: 600px;
+  width: 100%;
+}
+footer{
+  background-color: blue;
+  height: 80px;
+  width: 100%
+}
