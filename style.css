@@ -4,45 +4,39 @@
   box-sizing: border-box;
 }
 
+.clearfix::after {
+  display:table;
+  content:"";
+  clear:both;
+}
+
 .container{
-<<<<<<< Updated upstream
-  width: 900px;
-=======
   width: 750px;
->>>>>>> Stashed changes
   margin: auto;
   border: 3px solid black;
-  height:  500%;
+  height:  100%;
 }
 
 .first{
-<<<<<<< Updated upstream
-   background-color:white;
-=======
    background-color:lightgrey;
->>>>>>> Stashed changes
-   height: 50px;
-   width: 100%;
-   margin-top: 10px;
+   /*height: 50px;*/
+  /* width: 100%;*/
+   margin-top: 15px;
+
    }
    a{
      text-decoration: none;
-     color: black
-   }
-<<<<<<< Updated upstream
-.search{
-  text-align: center;
-}
+     color: black;
 
-.button{
-     text-align: right;
-=======
+     margin-top: 10px;
+     margin-bottom: 10px;
+   }
 
 .righthead{
-  width: 50%;
-  height: 50px;
+  /*width: 50%;*/
+  /*height: 50px;*/
   float: right;
- background-color: pink;
+ background-color: lightgrey;
 }
 
 
@@ -54,23 +48,17 @@
 }
 
 .free{
-  width: 40px; 
   text-align: center;
-  margin-right: 200px;
-  color: lightgreen;
    display: inline-block;
-   padding: 0 10px;
    background-color: orange;
    float: right;
-}
 }
 .login{
   text-align: center;
    display: inline-block;
    padding: 0 10px;
    background-color: white;
-   float: right;
->>>>>>> Stashed changes
+   float: left;
 }
 
 .second{
@@ -81,11 +69,7 @@
 img{
   width: 10%;
   height: 10%;
-<<<<<<< Updated upstream
-  margin-top: 10px;
-=======
   margin-top: 20px;
->>>>>>> Stashed changes
   margin-bottom: 10px;
   margin-left: 10px;
 }
@@ -97,45 +81,29 @@ img{
 .container li{
   display: inline-block;
   padding: 0 10px;
-<<<<<<< Updated upstream
-=======
    color: blue;
   margin-bottom: 20px;
->>>>>>> Stashed changes
 }
 
 
 
-<<<<<<< Updated upstream
-.third{
-  background-color: blue;
-=======
 
 .third{
   background-color: darkblue;
->>>>>>> Stashed changes
   /*height: 80px;*/
   width: 100%;
 background: rgb(1, 1, 0, );
 }
 
-<<<<<<< Updated upstream
-p{
-  color: white;
-=======
 .join{
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
->>>>>>> Stashed changes
 }
 
 .ytlink{
   color: white;
-<<<<<<< Updated upstream
-=======
   text-decoration: underline;
->>>>>>> Stashed changes
 }
 
 
@@ -143,11 +111,7 @@ p{
 /*         finish header        */
 section#menu{
     background-color: orange;
-<<<<<<< Updated upstream
-  height: 500px;
-=======
 /*  height: 500px;*/
->>>>>>> Stashed changes
   width: 100%;
 }
 
@@ -165,27 +129,19 @@ h1{
 .get{
   width: 100%;
   height: 50px;
-<<<<<<< Updated upstream
-
-}
-.two{
-      background-color: grey;
-       height: 600px;
-       width: 100%;
-}
-=======
   colo
 
 }
 .two{
       background-color: lightgrey;
-      height: 600px;
+     height: 600px;
        width: 100%;
 }
 
 .ptwo{
   width: 30%;
   float: left;
+  margin-left: 20px;
 
 }
 .box {
@@ -222,12 +178,84 @@ h2{
 
 }
 
->>>>>>> Stashed changes
 .three{
-  background-color: lightgreen;
-  height: 500px;
+  background-color: #fff;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  /*height: 800px;*/
   width: 100%;
 }
+.pthree{
+ text-align: center;
+ margin-left: 150px;
+ margin-right: 150px;
+ margin-top: 70px;
+ margin-bottom: 30px;
+ color: white;
+
+}
+
+h2{
+  font-size: 20px;
+}
+
+.boxrd{
+  height: 250px;
+  width: 220px;
+  border: 1px solid white;
+  padding: 30px;
+  position: relative;
+  float: left;
+
+
+}
+
+.fa-handshake{
+  font-size: 50px;
+ color: white;
+}
+.number{
+  font-size: 70px;
+  color: white;
+  float: left;
+}
+
+p{
+  color: white;
+  text-align: center;
+}
+
+.fa-globe-americas{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.numbers{
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .four{
   background-color: white;
