@@ -5,14 +5,22 @@
 }
 
 .container{
+<<<<<<< Updated upstream
   width: 900px;
+=======
+  width: 750px;
+>>>>>>> Stashed changes
   margin: auto;
   border: 3px solid black;
   height:  500%;
 }
 
 .first{
+<<<<<<< Updated upstream
    background-color:white;
+=======
+   background-color:lightgrey;
+>>>>>>> Stashed changes
    height: 50px;
    width: 100%;
    margin-top: 10px;
@@ -21,12 +29,48 @@
      text-decoration: none;
      color: black
    }
+<<<<<<< Updated upstream
 .search{
   text-align: center;
 }
 
 .button{
      text-align: right;
+=======
+
+.righthead{
+  width: 50%;
+  height: 50px;
+  float: right;
+ background-color: pink;
+}
+
+
+.search{
+  text-align: center;
+  margin-right: 200px;
+   display: inline-block;
+   padding: 0 10px;
+}
+
+.free{
+  width: 40px; 
+  text-align: center;
+  margin-right: 200px;
+  color: lightgreen;
+   display: inline-block;
+   padding: 0 10px;
+   background-color: orange;
+   float: right;
+}
+}
+.login{
+  text-align: center;
+   display: inline-block;
+   padding: 0 10px;
+   background-color: white;
+   float: right;
+>>>>>>> Stashed changes
 }
 
 .second{
@@ -37,7 +81,11 @@
 img{
   width: 10%;
   height: 10%;
+<<<<<<< Updated upstream
   margin-top: 10px;
+=======
+  margin-top: 20px;
+>>>>>>> Stashed changes
   margin-bottom: 10px;
   margin-left: 10px;
 }
@@ -49,23 +97,45 @@ img{
 .container li{
   display: inline-block;
   padding: 0 10px;
+<<<<<<< Updated upstream
+=======
+   color: blue;
+  margin-bottom: 20px;
+>>>>>>> Stashed changes
 }
 
 
 
+<<<<<<< Updated upstream
 .third{
   background-color: blue;
+=======
+
+.third{
+  background-color: darkblue;
+>>>>>>> Stashed changes
   /*height: 80px;*/
   width: 100%;
 background: rgb(1, 1, 0, );
 }
 
+<<<<<<< Updated upstream
 p{
   color: white;
+=======
+.join{
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+>>>>>>> Stashed changes
 }
 
 .ytlink{
   color: white;
+<<<<<<< Updated upstream
+=======
+  text-decoration: underline;
+>>>>>>> Stashed changes
 }
 
 
@@ -73,7 +143,11 @@ p{
 /*         finish header        */
 section#menu{
     background-color: orange;
+<<<<<<< Updated upstream
   height: 500px;
+=======
+/*  height: 500px;*/
+>>>>>>> Stashed changes
   width: 100%;
 }
 
@@ -91,6 +165,7 @@ h1{
 .get{
   width: 100%;
   height: 50px;
+<<<<<<< Updated upstream
 
 }
 .two{
@@ -98,6 +173,56 @@ h1{
        height: 600px;
        width: 100%;
 }
+=======
+  colo
+
+}
+.two{
+      background-color: lightgrey;
+      height: 600px;
+       width: 100%;
+}
+
+.ptwo{
+  width: 30%;
+  float: left;
+
+}
+.box {
+    background-color: white;
+    height: 300px;
+    width: 250px;
+      float: right;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+}
+.pbox{
+  color: black;
+
+}
+h2{
+  font-size: 15px;
+}
+
+.boxbutton{
+  background-color: orange;
+  width: 200px;
+  text-align:center;
+
+}
+.boxnd{
+  background-color: white;
+  height: 300px;
+  width: 243px;
+    float: left;
+  border: 1px solid black;
+  padding: 30px;
+  position: relative;
+
+}
+
+>>>>>>> Stashed changes
 .three{
   background-color: lightgreen;
   height: 500px;
