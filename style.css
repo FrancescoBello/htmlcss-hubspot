@@ -11,7 +11,7 @@
 }
 
 .container{
-  width: 750px;
+  width: 780px;
   margin: auto;
   border: 3px solid black;
   height:  100%;
@@ -24,7 +24,7 @@
    margin-top: 15px;
 
    }
-   a{
+a{
      text-decoration: none;
      color: black;
 
@@ -50,7 +50,7 @@
 .free{
   text-align: center;
    display: inline-block;
-   background-color: orange;
+   color: orange;
    float: right;
 }
 .login{
@@ -144,38 +144,61 @@ h1{
   margin-left: 20px;
 
 }
+.psecond{
+  color: black;
+}
 .box {
     background-color: white;
-    height: 300px;
+    height: 350px;
     width: 250px;
       float: right;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 30px;
     position: relative;
+    margin-right: 10px;
+    margin-top: 10px;
+
+
+    text-align: left;
 }
 .pbox{
   color: black;
 
 }
+
+.fa-check-circle{
+  text-align: left;
+  color: blue;
+}
+
+li .list{
+   color: black;
+}
+
+
+
+
 h2{
   font-size: 15px;
 }
 
 .boxbutton{
-  background-color: orange;
+   color: orange;
+   background-color: orange;
   width: 200px;
   text-align:center;
 
 }
 .boxnd{
   background-color: white;
-  height: 300px;
+  height: 350px;
   width: 243px;
     float: left;
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 30px;
   position: relative;
-
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 .three{
@@ -198,16 +221,75 @@ h2{
   font-size: 20px;
 }
 
-.boxrd{
+.boxrd1{
   height: 250px;
   width: 220px;
-  border: 1px solid white;
+  border right: : 1px solid white;
+  border-bottom: 1px solid white;
   padding: 30px;
   position: relative;
   float: left;
 
 
 }
+.boxrd2{
+  height: 250px;
+  width: 220px;
+  border right: : 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 30px;
+  position: relative;
+  float: left;
+}
+.boxrd3{
+
+  height: 250px;
+  width: 220px;
+  border right: : 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 30px;
+  position: relative;
+  float: left;
+
+
+}
+.boxrd4{
+  height: 250px;
+  width: 220px;
+
+  border-bottom: 1px solid white;
+  padding: 30px;
+  position: relative;
+  float: left;
+}
+
+
+.boxrd5{
+  height: 250px;
+  width: 220px;
+  border right: : 1px solid white;
+
+  padding: 30px;
+  position: relative;
+  float: left;
+}
+
+.boxrd6{
+  height: 250px;
+  width: 220px;
+
+
+  padding: 30px;
+  position: relative;
+  float: left;
+}
+
+
+
+
+
+
+
 
 .fa-handshake{
   font-size: 50px;
@@ -246,6 +328,7 @@ p{
   width: 100%;
 }
 
+
 .fleft{
   height: 500px;
   width: 40%;
@@ -266,7 +349,7 @@ p{
 
 .paragfour{
   margin-left: 30px;
-  
+
 }
 .ptitle{
   margin-top: 90px;
@@ -285,15 +368,44 @@ p{
 
 
 
+.image{
+  width: 300px;
+  height: 350px;
+  margin-bottom: 10px;
+}
 
-
-
-
+.logo{
+  height: 40px;
+  width: 40px;
+}
 
 
 
 footer{
-  background-color: blue;
+  background-color: #33475b;
   height: 80px;
   width: 100%
+}
+
+
+
+
+
+img{
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+}
+
+
+.copy{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+
+.a{
+  color: white;
+  text-align: right;
 }
