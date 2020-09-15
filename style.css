@@ -114,7 +114,10 @@ section#menu{
     background-color: #fa8072;
 /*  height: 500px;*/
   width: 100%;
+
 }
+
+
 
 .parag{
 
@@ -176,8 +179,10 @@ h1{
   color: blue;
 }
 
-li .list{
+ .list{
    color: black;
+   text-align: left;
+   display: inline-block;
 }
 
 
@@ -380,9 +385,9 @@ p{
 
 
 .image{
-  width: 300px;
-  height: 350px;
-  margin-bottom: 10px;
+  width: 200px;
+  height: 250px;
+  margin-bottom: 30px;
   float: right;
 }
 
@@ -401,17 +406,44 @@ footer{
 
 
 
+.lang{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 0 10px;
+/*  margin-left: 100px;
+  margin-right: 100px;*/
+}
+
+
+
+.footerleft{
+  width: 50%;
+  background-color: #33475b;
+  float: left;
+  height: 150px;
+
+}
+
+.footeright{
+  width: 50%;
+  background-color: #33475b;
+  float: right;
+  height: 150px;
+
+}
+
 
 
 img{
   height: 40px;
   width: 40px;
-  margin-top: 10px;
 }
-.lang{
-  color: white;
-  text-align: center;
-  text-decoration: none;
+
+
+
 
 }
 hr{
@@ -426,7 +458,9 @@ hr{
 
 .legal{
    color: white;
-   text-align: right;
+
    text-decoration: none;
+   margin-top: 50px;
+   float: right;
 
 }
